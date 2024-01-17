@@ -16,7 +16,7 @@ def text_input():
         end = b.find("）") if "）" in b else b.find(")")
         b = b[:end]
 
-    if b is None or b == "" or b == "不是" or b == "bushi":
+    if b is None or b == "" or b == "不是" or b == "bushi" or b == "doge":
         a = "不是"
 
     else:
